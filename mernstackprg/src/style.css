@@ -1,0 +1,21 @@
+/* .sath{
+    color:rgb(56, 245, 245);
+    background-color: rgb(255, 127, 127) ;
+    margin-right: 200px;
+}
+.rovin{
+    background-color: rgb(66, 223, 113);
+} */
+
+
+.i{
+    display:flex;
+}
+
+.i-left{
+    flex:1;
+}
+
+.i-right{
+    flex:1;
+}

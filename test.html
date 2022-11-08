@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+ 
+<head>
+ 
+ <meta charset="UTF-8">
+ 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <title>Document</title>
+ 
+</head>
+ 
+<body>
+ 
+ <button onclick="test()">Click Here</button>
+ 
+<script type="text/javascript">
+ 
+ function text(){
+ 
+ alert("hello world")
+ 
+ }
+ 
+</script>
+ 
+ <!-- <form method="POST" action="" onSubmit="return validate()">
+ 
+ <input type="password" name="" placeholder="password" id="password">
+ 
+ <input type="password" name="" placeholder="confirm password" id="cpassword"> 
+ 
+ <input type="submit" name="" value="register">
+ 
+ </form> -->
+ 
+ <form method="POST" action="" onSubmit="return calc()">
+ 
+ <input type="text" name="" placeholder="amount1" id="amt1">
+ 
+ <input type="text" name="" placeholder="amount2" id="amt2" onchange="calc()"> 
+ 
+ <input type="text" name="" placeholder="total" id="total"> 
+ 
+ <input type="submit" name="" value="calculate"> 
+ 
+ </form>
+ 
+<script type="text/javascript">
+ 
+ 
+ function calc(){
+ 
+ var a= document.getElementById("amt1").value;
+ 
+ var b= document.getElementById("amt2").value;
+ 
+ var total= +a + +b;
+ 
+ // alert(total);
+ 
+ document.getElementById("total").value=""+total
+ 
+ return false; 
+ 
+ }
+ 
+</script>
+ 
+</body>
+ 
+</html>
+ 
