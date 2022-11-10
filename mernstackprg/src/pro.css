@@ -1,5 +1,6 @@
 .icon{
     display:flex;
+    background-color:white;
 }
 
 .sath{
@@ -17,36 +18,38 @@
 }
 .i-intro{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 200;
+    margin-top: 20px;
 }
 .i-name{
    font-size: 35px;
 }
 .i-name1{
-   height:50px;
-   font-size: 30px;
+   height:200px;
+   font-size: 40px;
    font-weight: bold;
-   color:rgb(66, 250, 66);
-   display:flex;
+   color:rgb(8, 192, 8);
+   display:block;
    align-items: center;
 
 }
 .i-name2{
-    height:10px;
+    height:100px;
     font-size: 15px;
-    color:rgb(8, 8, 8)
+    color:rgba(240, 238, 238, 0.829)
  }
- /* .i-left{ */
-    /* padding:50px; */
-    /* height:80%; */
-   /* background-color: rgb(69, 201, 245); */
-   /* display:flex; */
-   /* flex-direction:column; */
-   /* justify-content:space-between; */
- /* } */
+ .i-left{ 
+    padding:30px; 
+    height:80%;
+   background-color:rgba(22, 200, 245, 0.884);
+   display:flex;
+   flex-direction:column;
+   justify-content:space-between;
+  }
  .i-name3{
-    margin-left: 420px;
+    margin-left: 400px;
     display:flex;
+    color:rgb(13, 238, 13);
  }
  .i-right{
     width:50%;
