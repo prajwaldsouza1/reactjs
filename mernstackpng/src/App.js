@@ -3,7 +3,10 @@ import './App.css';
 // import Portfolio from './portfolio.jsx'
 // import List from './list'
 // import Pro from './pro'
-// import Reactrouter from './reactrouter'
+import Reactrouter from './reactrouter'
+//  import State from './State'
+//  import Practice from './practice'
+
 
 //import Home from './Home'
 import Prajwal from './prajwal'
@@ -11,8 +14,9 @@ import Prajwal from './prajwal'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+       <header className="App-header">
+    
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> 
@@ -23,11 +27,13 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a> 
+        </a>  */} 
         
         {/* <Reactrouter /> */}
-        <Prajwal />
-        
+        {/* <Prajwal />
+        <State /> */}
+        {/* <Practice /> */}
+        <Reactrouter />
       </header>
        {/* <List />
         <Pro /> */}

@@ -69,9 +69,9 @@
 
 
 
-import React from 'react'
+// import React from 'react'
 
-export default function Task2() {
+// export default function Task2() {
     // function Rovin(){
     //     return<h1>hello</h1>
     // }
@@ -108,16 +108,16 @@ export default function Task2() {
 
 
 
-    function Rovin(){
-        return(
-            <>
-            {animal.length >1 &&
-            <h1>i have{animal.length}pets in my house</h1>}
-            </>
-        )
-    }
-    const animal=["cat","dog"]
-  return (
-    <div>{Rovin()}</div>
-  )
-}
+//     function Rovin(){
+//         return(
+//             <>
+//             {animal.length >1 &&
+//             <h1>i have{animal.length}pets in my house</h1>}
+//             </>
+//         )
+//     }
+//     const animal=["cat","dog"]
+//   return (
+//     <div>{Rovin()}</div>
+//   )
+// }

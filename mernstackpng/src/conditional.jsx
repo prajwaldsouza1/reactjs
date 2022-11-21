@@ -17,23 +17,23 @@
 //     //    }
 
 
-    function Bca(){
-        return <h1>bca</h1>
-       }
-       function Bsc(){
-           return <h1>bsc</h1>
-          }
+    // function Bca(){
+    //     return <h1>bca</h1>
+    //    }
+    //    function Bsc(){
+    //        return <h1>bsc</h1>
+    //       }
              
-          function Course(props){
-           const developer=props.name
+    //       function Course(props){
+    //        const developer=props.name
 
-           if(developer=="csa"){
-               return<Bca/>
-           }
-           return<Bsc />
+    //        if(developer=="csa"){
+    //            return<Bca/>
+    //        }
+    //        return<Bsc />
            
-          }
-          return
+    //       }
+    //       return
 
 
 //      function garage(){

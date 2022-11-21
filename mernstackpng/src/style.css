@@ -1,4 +1,4 @@
-/* .sath{
+/* /* .sath{
     color:rgb(56, 245, 245);
     background-color: rgb(255, 127, 127) ;
     margin-right: 200px;
@@ -8,7 +8,7 @@
 } */
 
 
-.i{
+/* .i{
     display:flex;
 }
 
@@ -18,4 +18,4 @@
 
 .i-right{
     flex:1;
-}
+} */ 
