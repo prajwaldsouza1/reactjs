@@ -9,7 +9,7 @@ export default function Useeffect() {
         product_name:"",
         product_code:"",
         category:"",
-        product_description:"",
+        product_des:"",
         quantity:""
       })
       let count=0
@@ -22,8 +22,8 @@ export default function Useeffect() {
         product_name:"",
         product_code:"",
         category:"",
-        product_description:"",
-        quantity:""
+        product_des:"",
+        quantity:"",
         })
     
       product.push(temp)
@@ -41,15 +41,23 @@ export default function Useeffect() {
         }
   return (
     <div>
+        <center>
+        <h1><span>PRODUCT  ENTRIES</span></h1>
         <div className="i-right2">
       <div className="i-right1"><input type="text" name="product_id" placeholder="ID" onChange={(e)=>{handle(e)}} value={state?.product_id}/></div>
       <div className="i-right1"> <input type="text" name="product_name" placeholder="Name" onChange={(e)=>{handle(e)}} value={state?.product_name}/></div>
       <div className="i-right1"><input type="text" name="product_code" placeholder="code" onChange={(e)=>{handle(e)}} value={state?.product_code}/></div>
-      <div className="i-right1"> <input type="text" name="category" placeholder="category" onChange={(e)=>{handle(e)}} value={state?.category}/></div>
-      <div className="i-right1"><input type="text" name="product_description" placeholder="Description" onChange={(e)=>{handle(e)}} value={state?.product_description}/></div>
+      <div className="i-right1"><input type="text" name="category" placeholder="category" onChange={(e)=>{handle(e)}} value={state?.category}/></div>
+      <div className="i-right1"><input type="text" name="product_des" placeholder="description" onChange={(e)=>{handle(e)}} value={state?.product_des}/></div>
       <div className="i-right1"><input type="text" name="quantity" placeholder="quantity" onChange={(e)=>{handle(e)}} value={state?.quantity}/></div>
-      <div className="i-right1"> <input type="submit" onClick={(e)=>{handlesubmit(e)}}/></div>
+      
+      <div className="i-right4"><input type="submit" onClick={(e)=>{handlesubmit(e)}}/></div>
+      
       </div>
+      </center>
+      <center>
+        <br></br>
+        <br></br>
       <table border="1" bgcolor='aqua'>
         <tr>
         <td>product id</td>
@@ -59,7 +67,7 @@ export default function Useeffect() {
         <td>description</td>
         <td>quantity</td>
         </tr>
-
+        
 
         {name.map((item,i)=>{
                 return <tr>
@@ -75,7 +83,7 @@ export default function Useeffect() {
                         {item.category}
                     </td>
                     <td>
-                        {item.description}
+                        {item.product_des}
                     </td>
                     <td>
                         {item.quantity}
@@ -83,6 +91,7 @@ export default function Useeffect() {
                 </tr>
             })}
       </table>
+      </center>
     </div>
   )
 }

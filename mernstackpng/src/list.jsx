@@ -196,10 +196,13 @@
 import React from 'react'
 import './pro.css'
 import img1 from './images/prg1.jpg'
+import {Link} from 'react-router-dom'
+import './shop.css'
 export default function list() {
   return (
 
     <div>
+    
          <div className="icon">
       <div className="sath"> 
       <div className="i-left">

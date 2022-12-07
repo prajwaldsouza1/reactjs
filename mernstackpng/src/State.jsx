@@ -1,21 +1,21 @@
-// // import React from 'react'
-// // import react,{useState} from 'react'
-// // export default function State() {
-// //     const [color,setColor]=useState("red")
-// //   return (
-// //     <div>
-// //         <>
-// //      <h1>my favorite color is  {color}</h1>
-// //      <button type="button" onClick={()=>setColor("blue")}>Blue</button>
-// //      <button type="button" onClick={()=>setColor("red")}>red</button>
-// //      <button type="button" onClick={()=>setColor("pink")}>pink</button>
-// //      <button type="button" onClick={()=>setColor("green")}>green</button>
+import React from 'react'
+import React,{useState} from 'react'
+export default function State() {
+    const [color,setColor]=useState("red")
+  return (
+    <div>
+        <>
+     <h1>my favorite color is  {color}</h1>
+     <button type="button" onClick={()=>setColor("blue")}>Blue</button>
+     <button type="button" onClick={()=>setColor("red")}>red</button>
+     <button type="button" onClick={()=>setColor("pink")}>pink</button>
+     <button type="button" onClick={()=>setColor("green")}>green</button>
 
 
-// //         </>
-// //     </div>
-// //   )
-// // }
+        </>
+    </div>
+  )
+}
 
 
 

@@ -22,29 +22,38 @@
 .App-logo {
     height: 10vmin;
     pointer-events: none;
+    text-decoration: none;
   }
 
 
 .body {
     box-sizing:border-box ;
+    text-decoration: none;
 }
 body{
-    margin: 0;
-    background-color:rgb(242, 255, 242);
+    margin: 10;
+    background-color:rgb(245, 239, 239);
+    color: rgb(22, 20, 20);
+    text-decoration: none;
 
 }
 .nav{
-    background-color: rgb(12, 12, 12);
-    color:white;
+    background-color: rgb(14, 18, 13);
+    color:rgb(7, 7, 7);
     display:flex;
     justify-content: space-between;
     align-items: stretch;
     gap:0rem;
     padding: 0 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
 
 }
 .a-site{
     font-size: 2rem;
+    text-decoration: none;
 }
 .nav.ul li{
     padding:0;
@@ -57,6 +66,7 @@ body{
     display:inline-block;
     margin:0 20px;
     position:absolute;
+    text-decoration: none;
 }
 .nav a{
     color:inherit;
@@ -64,7 +74,8 @@ body{
     height:100%;
     display: flex;
     align-items: center;
-    padding:.25rem;
+    padding:.20rem;
+    text-decoration: none;
     /* position: relative; */
 }
 
@@ -72,29 +83,32 @@ body{
 .nav li.active::after{
     background-color:#555;
     content:'';
-    height:3px;
-    width:0;
+    height:15px;
+    width:100%;
     background:#009688;
+    text-decoration: none;
     /* position:absolute; */
     left:0;
     /* bottom:-10px;
     transition: 0.5s; */
 }
 .nav li.active:hover::after{
-    width:100%;
+    width:50%;
+    text-decoration: none;
 
 
 }
 .nav.ul{
-    margin:20px;
-    padding:0px;
+    margin:200px;
+    padding:10px;
     box-sizing:border-box;
+    text-decoration: none;
 }
 
 .backimage{
-    width: 100%;
-    height:300vh;
-    background-image: url("file:///home/prajwal/Downloads/abc.jpg");
+    width: 120%;
+    height:280vh;
+    background-image: url("file:///home/prajwal/Downloads/p6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -103,7 +117,7 @@ body{
 
 }
 .a{
-   margin:10% auto 0;
+   margin:0.05% auto 0;
    color:rgb(33, 238, 234);
    font-size: 30px;
    text-align:center;
@@ -111,11 +125,13 @@ body{
 
 }
 span{
-    color:rgb(15, 240, 90);
+
+   color:rgb(46, 239, 46)
 }
 
 
 .prajwal{
+    text-decoration: none;
     width:200px;
     padding:15px 0;
     text-align: center;
@@ -128,15 +144,41 @@ span{
     cursor: pointer;
     position:relative;
     overflow: hidden;
+    background-color: rgb(7, 8, 8);
+    margin-left: 30px;
+    
 }
 
 span1{
     background: #009688;
     height:100%;
     width:100%;
-    border-radius: 25px;
+    border-radius: 15px;
     /* position:absolute; */
     left:0;
     bottom:0;
     z-index:-1;
+}
+.i-right4{
+    background-color: #555;
+    color:aqua;
+}
+/* .active{
+    background-color: #555;
+    color:aqua;
+
+} */
+.nav1{
+    margin-bottom: 2%;
+    background-color: rgb(14, 18, 13);
+    color:rgb(7, 7, 7);
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap:0rem;
+    padding: 0 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
 }

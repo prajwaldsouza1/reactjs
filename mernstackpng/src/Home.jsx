@@ -1,43 +1,49 @@
 import React from 'react'
+import Navbar from './MUI/Navbar'
+import Auto from './Auto'
 import logo from './logo.svg';
 import {Link} from 'react-router-dom'
 import './shop.css'
 export default function Home() {
   return (
     <>
-    <div className="backimage">
-    <nav className="nav">
-    <a href="/" className="app-logo">
-    <img src={logo} className="App-logo" alt="logo" />
-      REACT</a> 
-    <ul>
-      <li className="active">
-        <a href="/Home">HOME</a>
+     <Navbar />
+     <div className="backimage">
+    {/* // <div className="backimage">
+    // <nav className="nav">
+    // <a href="/" className="app-logo">
+    // <img src={logo} className="App-logo" alt="logo" />
+    //   REACT</a> 
+    // <ul>
+    //   <li className="active">
+    //     <a href="/Home">HOME</a>
         
-      </li>
-    </ul>
-    <ul>
-    <li className="active"> 
-        <a href="/a10">PORTFOLIO</a>
-      </li>
-    </ul>
-    <ul>
-    <li className="active"> 
-        <a href="/contact">CONTACTS</a>
-      </li>
-    </ul>
-    <ul>
-    <li className="active">
-        <a href="/about">ABOUT</a>
-      </li>
-    </ul>
+    //   </li>
+    // </ul>
+    // <ul>
+    // <li className="active"> 
+    //     <a href="/a10">PORTFOLIO</a>
+    //   </li>
+    // </ul>
+    // <ul>
+    // <li className="active"> 
+    //     <a href="/a18">MUI</a>
+    //   </li>
+    // </ul>
+    // <ul>
+    // <li className="active">
+    //     <a href="/about">ABOUT</a>
+    //   </li>
+    // </ul>
+
+
    
-    </nav>
+    // </nav>
+    //  */}
     
-   
 
     
-   <center><div className="a"><h2>Design,communiacate,<br/>
+   <center><div className="a"><h2>Design,communicate,<br/>
     and <span>shine!</span></h2></div></center> 
 
 
@@ -50,6 +56,7 @@ export default function Home() {
 
     <ul>
     <li className="prajwal"> 
+    
    <Link to='/'><span>Home</span></Link><br/></li></ul>         
    
 
@@ -109,13 +116,45 @@ export default function Home() {
     <Link to='/a17'><span>Product</span></Link><br/></li></ul> 
     <ul>
     <li className="prajwal"> 
-    <Link to='/a18'><span>Textfield</span></Link><br/></li></ul> 
-   
+    <Link to='/a18'><span>Autocomplete</span></Link><br/></li></ul> 
+    {/* <ul>
+    <li className="prajwal"> 
+    <Link to='/a18'><span>Countryselect</span></Link><br/></li></ul> 
+    <ul>
+    <li className="prajwal"> 
+    <Link to='/a20'><span>Group</span></Link><br/></li></ul>
+    <ul>
+    <li className="prajwal"> 
+    <Link to='/a21'><span>Disable</span></Link><br/></li></ul> 
+    <ul>
+    <li className="prajwal"> 
+    <Link to='/a22'><span>Customizedhook</span></Link><br/></li></ul> 
+    <ul>
+    <li className="prajwal"> 
+    <Link to='/a23'><span>Asynchronous</span></Link><br/></li></ul> 
+    <ul>
+    <li className="prajwal"> 
+    <Link to='/a24'><span>Fixedoptions</span></Link><br/></li></ul> 
+    <ul>
+    <li className="prajwal"> 
+    <Link to='/a25'><span>Checkbox</span></Link><br/></li></ul>  */}
+    {/* <ul>
+    <li className="prajwal"> 
+    <Link to='/a26'><span>Basicbuttons</span></Link><br/></li></ul> 
+    <ul>
+    <li className="prajwal"> 
+    <Link to='/a30'><span>AUTOCOMPLETE</span></Link><br/></li></ul>  */}
+   <ul>
+   <li className="prajwal"> 
+    <Link to='/a33'><span>Web</span></Link><br/></li></ul> 
+    <ul>
+   <li className="prajwal"> 
+    <Link to='/a34'><span>Example</span></Link><br/></li></ul> 
    
 
-    </div>
+    
 
-   
+   </div>
 
       
     </>
